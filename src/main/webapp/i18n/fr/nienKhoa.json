@@ -1,0 +1,25 @@
+{
+  "quanLySinhVienApp": {
+    "nienKhoa": {
+      "home": {
+        "title": "NienKhoas",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Nien Khoa",
+        "createOrEditLabel": "Créer ou éditer un Nien Khoa",
+        "notFound": "Aucun Nien Khoa trouvé"
+      },
+      "created": "Un nouveau Nien Khoa a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Nien Khoa avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Nien Khoa avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Nien Khoa {{ id }} ?"
+      },
+      "detail": {
+        "title": "Nien Khoa"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "namBatDau": "Nam Bat Dau"
+    }
+  }
+}

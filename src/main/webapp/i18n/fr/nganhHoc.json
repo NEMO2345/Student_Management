@@ -1,0 +1,24 @@
+{
+  "quanLySinhVienApp": {
+    "nganhHoc": {
+      "home": {
+        "title": "NganhHocs",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Nganh Hoc",
+        "createOrEditLabel": "Créer ou éditer un Nganh Hoc",
+        "notFound": "Aucun Nganh Hoc trouvé"
+      },
+      "created": "Un nouveau Nganh Hoc a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Nganh Hoc avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Nganh Hoc avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Nganh Hoc {{ id }} ?"
+      },
+      "detail": {
+        "title": "Nganh Hoc"
+      },
+      "id": "ID",
+      "ten": "Ten"
+    }
+  }
+}

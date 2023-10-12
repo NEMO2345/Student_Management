@@ -1,0 +1,27 @@
+{
+  "quanLySinhVienApp": {
+    "giaoVien": {
+      "home": {
+        "title": "GiaoViens",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Giao Vien",
+        "createOrEditLabel": "Créer ou éditer un Giao Vien",
+        "notFound": "Aucun Giao Vien trouvé"
+      },
+      "created": "Un nouveau Giao Vien a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Giao Vien avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Giao Vien avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Giao Vien {{ id }} ?"
+      },
+      "detail": {
+        "title": "Giao Vien"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "email": "Email",
+      "sdt": "Sdt",
+      "user": "User"
+    }
+  }
+}

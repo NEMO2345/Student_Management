@@ -1,6 +1,5 @@
 package com.quanlysinhvien.web;
 
-import com.quanlysinhvien.web.QuanLySinhVienApp;
 import com.quanlysinhvien.web.config.AsyncSyncConfiguration;
 import com.quanlysinhvien.web.config.EmbeddedSQL;
 import java.lang.annotation.ElementType;

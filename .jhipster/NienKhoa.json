@@ -1,0 +1,22 @@
+{
+  "applications": "*",
+  "changelogDate": "20231012094604",
+  "entityTableName": "nien_khoa",
+  "fields": [
+    {
+      "fieldName": "ten",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "255",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "namBatDau",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "NienKhoa",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no"
+}

@@ -1,0 +1,29 @@
+{
+  "quanLySinhVienApp": {
+    "sinhVien": {
+      "home": {
+        "title": "Sinh Viens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Sinh Vien",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Sinh Vien",
+        "notFound": "No Sinh Viens found"
+      },
+      "created": "Նոր Sinh Vien ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Sinh Vien թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Sinh Vien հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Sinh Vien {{ id }}?"
+      },
+      "detail": {
+        "title": "Sinh Vien"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "email": "Email",
+      "dienThoai": "Dien Thoai",
+      "user": "User",
+      "nganhHoc": "Nganh Hoc",
+      "nienKhoa": "Nien Khoa"
+    }
+  }
+}

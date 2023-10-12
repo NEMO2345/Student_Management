@@ -1,0 +1,26 @@
+{
+  "quanLySinhVienApp": {
+    "hocPhan": {
+      "home": {
+        "title": "Hoc Phans",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Hoc Phan",
+        "createOrEditLabel": "Create or edit a Hoc Phan",
+        "notFound": "No Hoc Phans found"
+      },
+      "created": "A new Hoc Phan is created with identifier {{ param }}",
+      "updated": "A Hoc Phan is updated with identifier {{ param }}",
+      "deleted": "A Hoc Phan is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Hoc Phan {{ id }}?"
+      },
+      "detail": {
+        "title": "Hoc Phan"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "moTa": "Mo Ta",
+      "nganhHoc": "Nganh Hoc"
+    }
+  }
+}

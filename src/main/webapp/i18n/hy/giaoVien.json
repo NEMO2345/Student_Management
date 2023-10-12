@@ -1,0 +1,27 @@
+{
+  "quanLySinhVienApp": {
+    "giaoVien": {
+      "home": {
+        "title": "Giao Viens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Giao Vien",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Giao Vien",
+        "notFound": "No Giao Viens found"
+      },
+      "created": "Նոր Giao Vien ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Giao Vien թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Giao Vien հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Giao Vien {{ id }}?"
+      },
+      "detail": {
+        "title": "Giao Vien"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "email": "Email",
+      "sdt": "Sdt",
+      "user": "User"
+    }
+  }
+}

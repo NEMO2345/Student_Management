@@ -2,6 +2,8 @@
 
 This application was generated using JHipster 8.0.0-beta.2, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.0.0-beta.2](https://www.jhipster.tech/documentation-archive/v8.0.0-beta.2).
 
+## Detailed assignment of project
+
 ## Project Structure
 
 Node is required for generation and recommended for development. `package.json` is always generated for a better development experience with prettier, commit hooks, scripts and so on.
@@ -250,3 +252,9 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [OpenAPI-Generator]: https://openapi-generator.tech
 [Swagger-Editor]: https://editor.swagger.io
 [Doing API-First development]: https://www.jhipster.tech/documentation-archive/v8.0.0-beta.2/doing-api-first-development/
+
+#   S t u d e n t * M a n a g e m e n t 
+ 
+ #   S t u d e n t * M a n a g e m e n t 
+ 
+ 

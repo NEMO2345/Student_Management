@@ -1,0 +1,28 @@
+{
+  "quanLySinhVienApp": {
+    "lopDangKi": {
+      "home": {
+        "title": "Lop Dang Kis",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Lop Dang Ki",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Lop Dang Ki",
+        "notFound": "No Lop Dang Kis found"
+      },
+      "created": "Նոր Lop Dang Ki ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Lop Dang Ki թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Lop Dang Ki հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Lop Dang Ki {{ id }}?"
+      },
+      "detail": {
+        "title": "Lop Dang Ki"
+      },
+      "id": "ID",
+      "diemQuaTrinh": "Diem Qua Trinh",
+      "diemThi": "Diem Thi",
+      "diemKetThucHocPhan": "Diem Ket Thuc Hoc Phan",
+      "sinhVien": "Sinh Vien",
+      "lopHoc": "Lop Hoc"
+    }
+  }
+}

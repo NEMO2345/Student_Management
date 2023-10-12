@@ -1,0 +1,33 @@
+{
+  "quanLySinhVienApp": {
+    "lopHoc": {
+      "home": {
+        "title": "Lop Hocs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Lop Hoc",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Lop Hoc",
+        "notFound": "No Lop Hocs found"
+      },
+      "created": "Նոր Lop Hoc ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Lop Hoc թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Lop Hoc հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Lop Hoc {{ id }}?"
+      },
+      "detail": {
+        "title": "Lop Hoc"
+      },
+      "id": "ID",
+      "kiHoc": "Ki Hoc",
+      "ngayHocTrongTuan": "Ngay Hoc Trong Tuan",
+      "thoiGianBatDau": "Thoi Gian Bat Dau",
+      "thoiGianKetThuc": "Thoi Gian Ket Thuc",
+      "phongHoc": "Phong Hoc",
+      "ngayThi": "Ngay Thi",
+      "gioThi": "Gio Thi",
+      "phongThi": "Phong Thi",
+      "hocPhan": "Hoc Phan",
+      "giaoVien": "Giao Vien"
+    }
+  }
+}

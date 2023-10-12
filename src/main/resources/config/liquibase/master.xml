@@ -11,7 +11,19 @@
     <property name="datetimeType" value="datetime(6)" dbms="mysql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094559_added_entity_GiaoVien.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094600_added_entity_HocPhan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094601_added_entity_LopDangKi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094602_added_entity_LopHoc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094603_added_entity_NganhHoc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094604_added_entity_NienKhoa.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094605_added_entity_SinhVien.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20231012094559_added_entity_constraints_GiaoVien.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094600_added_entity_constraints_HocPhan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094601_added_entity_constraints_LopDangKi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094602_added_entity_constraints_LopHoc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231012094605_added_entity_constraints_SinhVien.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
