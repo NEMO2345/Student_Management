@@ -1,0 +1,67 @@
+entity SinhVien {
+  id Long required,
+  ten String required minlength(2) maxlength(255),
+  email String required minlength(2) maxlength(255),
+  dienThoai String required minlength(2) maxlength(255),
+  nganhHoc NganhHoc,
+  nienKhoa NienKhoa
+}
+
+entity NienKhoa {
+  id Long required,
+  ten String required minlength(2) maxlength(255),
+  namBatDau Integer
+}
+
+entity NganhHoc {
+  id Long required,
+  ten String required minlength(2) maxlength(255)
+}
+
+entity GiaoVien {
+  id Long required,
+  ten String required minlength(2) maxlength(255),
+  email String required minlength(2) maxlength(255),
+  sdt String required minlength(2) maxlength(255)
+}
+
+entity HocPhan {
+  id Long required,
+  ten String required minlength(2) maxlength(255),
+  moTa String,
+  nganhHoc NganhHoc
+}
+
+entity LopHoc {
+  id Long required,
+  kiHoc String required minlength(2) maxlength(255),
+  ngayHocTrongTuan String required minlength(2) maxlength(255),
+  thoiGianBatDau String required minlength(2) maxlength(255),
+  thoiGianKetThuc String required minlength(2) maxlength(255),
+  phongHoc String required minlength(2) maxlength(255),
+  ngayThi String required minlength(2) maxlength(255),
+  gioThi String required minlength(2) maxlength(255),
+  phongThi String required minlength(2) maxlength(255),
+  hocPhan HocPhan
+}
+
+entity LopDangKi {
+  id Long required,
+  sinhVien SinhVien,
+  lopHoc LopHoc,
+  diemQuaTrinh Float,
+  diemThi Float,
+  diemKetThucHocPhan Float
+}
+
+relationship ManyToOne {
+  SinhVien { nganhHoc(nienKhoa) } to NganhHoc,
+  SinhVien { nienKhoa } to NienKhoa,
+  HocPhan { nganhHoc } to NganhHoc,
+  LopHoc { hocPhan } to HocPhan,
+  LopDangKi { sinhVien(id) } to SinhVien,
+  LopDangKi { lopHoc(id) } to LopHoc,
+  GiaoVien { nganhHoc } to NganhHoc
+}
+
+paginate SinhVien, NienKhoa, NganhHoc, GiaoVien, HocPhan, LopHoc, LopDangKi with pagination
