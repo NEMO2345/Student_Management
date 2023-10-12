@@ -1,0 +1,55 @@
+{
+  "applications": "*",
+  "changelogDate": "20231012094605",
+  "entityTableName": "sinh_vien",
+  "fields": [
+    {
+      "fieldName": "ten",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "255",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "255",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "dienThoai",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "11",
+      "fieldValidateRulesMinlength": "10"
+    }
+  ],
+  "name": "SinhVien",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "user",
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one",
+      "relationshipWithBuiltInEntity": true
+    },
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "nganhHoc",
+      "relationshipName": "nganhHoc",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "nienKhoa",
+      "relationshipName": "nienKhoa",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

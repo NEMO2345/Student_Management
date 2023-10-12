@@ -1,0 +1,28 @@
+{
+  "quanLySinhVienApp": {
+    "lopDangKi": {
+      "home": {
+        "title": "LopDangKis",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Lop Dang Ki",
+        "createOrEditLabel": "Créer ou éditer un Lop Dang Ki",
+        "notFound": "Aucun Lop Dang Ki trouvé"
+      },
+      "created": "Un nouveau Lop Dang Ki a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Lop Dang Ki avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Lop Dang Ki avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Lop Dang Ki {{ id }} ?"
+      },
+      "detail": {
+        "title": "Lop Dang Ki"
+      },
+      "id": "ID",
+      "diemQuaTrinh": "Diem Qua Trinh",
+      "diemThi": "Diem Thi",
+      "diemKetThucHocPhan": "Diem Ket Thuc Hoc Phan",
+      "sinhVien": "Sinh Vien",
+      "lopHoc": "Lop Hoc"
+    }
+  }
+}

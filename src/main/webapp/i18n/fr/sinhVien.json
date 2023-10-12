@@ -1,0 +1,29 @@
+{
+  "quanLySinhVienApp": {
+    "sinhVien": {
+      "home": {
+        "title": "SinhViens",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Sinh Vien",
+        "createOrEditLabel": "Créer ou éditer un Sinh Vien",
+        "notFound": "Aucun Sinh Vien trouvé"
+      },
+      "created": "Un nouveau Sinh Vien a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Sinh Vien avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Sinh Vien avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Sinh Vien {{ id }} ?"
+      },
+      "detail": {
+        "title": "Sinh Vien"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "email": "Email",
+      "dienThoai": "Dien Thoai",
+      "user": "User",
+      "nganhHoc": "Nganh Hoc",
+      "nienKhoa": "Nien Khoa"
+    }
+  }
+}

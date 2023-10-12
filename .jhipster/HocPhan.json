@@ -1,0 +1,30 @@
+{
+  "applications": "*",
+  "changelogDate": "20231012094600",
+  "entityTableName": "hoc_phan",
+  "fields": [
+    {
+      "fieldName": "ten",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "255",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "moTa",
+      "fieldType": "String"
+    }
+  ],
+  "name": "HocPhan",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "nganhHoc",
+      "relationshipName": "nganhHoc",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

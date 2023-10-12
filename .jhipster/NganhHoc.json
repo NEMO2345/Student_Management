@@ -1,0 +1,18 @@
+{
+  "applications": "*",
+  "changelogDate": "20231012094603",
+  "entityTableName": "nganh_hoc",
+  "fields": [
+    {
+      "fieldName": "ten",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "255",
+      "fieldValidateRulesMinlength": "2"
+    }
+  ],
+  "name": "NganhHoc",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no"
+}

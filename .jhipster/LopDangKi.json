@@ -1,0 +1,38 @@
+{
+  "applications": "*",
+  "changelogDate": "20231012094601",
+  "entityTableName": "lop_dang_ki",
+  "fields": [
+    {
+      "fieldName": "diemQuaTrinh",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "diemThi",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "diemKetThucHocPhan",
+      "fieldType": "Float"
+    }
+  ],
+  "name": "LopDangKi",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "sinhVien",
+      "relationshipName": "sinhVien",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "lopHoc",
+      "relationshipName": "lopHoc",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

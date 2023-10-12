@@ -1,0 +1,25 @@
+{
+  "quanLySinhVienApp": {
+    "nienKhoa": {
+      "home": {
+        "title": "Nien Khoas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Nien Khoa",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Nien Khoa",
+        "notFound": "No Nien Khoas found"
+      },
+      "created": "Նոր Nien Khoa ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Nien Khoa թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Nien Khoa հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Nien Khoa {{ id }}?"
+      },
+      "detail": {
+        "title": "Nien Khoa"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "namBatDau": "Nam Bat Dau"
+    }
+  }
+}

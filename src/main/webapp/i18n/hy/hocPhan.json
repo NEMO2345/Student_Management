@@ -1,0 +1,26 @@
+{
+  "quanLySinhVienApp": {
+    "hocPhan": {
+      "home": {
+        "title": "Hoc Phans",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Hoc Phan",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Hoc Phan",
+        "notFound": "No Hoc Phans found"
+      },
+      "created": "Նոր Hoc Phan ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Hoc Phan թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Hoc Phan հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Hoc Phan {{ id }}?"
+      },
+      "detail": {
+        "title": "Hoc Phan"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "moTa": "Mo Ta",
+      "nganhHoc": "Nganh Hoc"
+    }
+  }
+}

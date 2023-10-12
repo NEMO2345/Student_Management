@@ -7,6 +7,13 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Էություններ",
+        "giaoVien": "Giao Vien",
+        "hocPhan": "Hoc Phan",
+        "lopDangKi": "Lop Dang Ki",
+        "lopHoc": "Lop Hoc",
+        "nganhHoc": "Nganh Hoc",
+        "nienKhoa": "Nien Khoa",
+        "sinhVien": "Sinh Vien",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

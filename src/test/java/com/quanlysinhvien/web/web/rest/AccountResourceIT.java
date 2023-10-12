@@ -14,7 +14,6 @@ import com.quanlysinhvien.web.security.AuthoritiesConstants;
 import com.quanlysinhvien.web.service.UserService;
 import com.quanlysinhvien.web.service.dto.AdminUserDTO;
 import com.quanlysinhvien.web.service.dto.PasswordChangeDTO;
-import com.quanlysinhvien.web.service.dto.UserDTO;
 import com.quanlysinhvien.web.web.rest.vm.KeyAndPasswordVM;
 import com.quanlysinhvien.web.web.rest.vm.ManagedUserVM;
 import java.time.Instant;

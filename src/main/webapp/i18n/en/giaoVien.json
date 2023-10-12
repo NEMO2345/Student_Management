@@ -1,0 +1,27 @@
+{
+  "quanLySinhVienApp": {
+    "giaoVien": {
+      "home": {
+        "title": "Giao Viens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Giao Vien",
+        "createOrEditLabel": "Create or edit a Giao Vien",
+        "notFound": "No Giao Viens found"
+      },
+      "created": "A new Giao Vien is created with identifier {{ param }}",
+      "updated": "A Giao Vien is updated with identifier {{ param }}",
+      "deleted": "A Giao Vien is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Giao Vien {{ id }}?"
+      },
+      "detail": {
+        "title": "Giao Vien"
+      },
+      "id": "ID",
+      "ten": "Ten",
+      "email": "Email",
+      "sdt": "Sdt",
+      "user": "User"
+    }
+  }
+}

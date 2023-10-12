@@ -1,0 +1,33 @@
+{
+  "quanLySinhVienApp": {
+    "lopHoc": {
+      "home": {
+        "title": "Lop Hocs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Lop Hoc",
+        "createOrEditLabel": "Create or edit a Lop Hoc",
+        "notFound": "No Lop Hocs found"
+      },
+      "created": "A new Lop Hoc is created with identifier {{ param }}",
+      "updated": "A Lop Hoc is updated with identifier {{ param }}",
+      "deleted": "A Lop Hoc is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Lop Hoc {{ id }}?"
+      },
+      "detail": {
+        "title": "Lop Hoc"
+      },
+      "id": "ID",
+      "kiHoc": "Ki Hoc",
+      "ngayHocTrongTuan": "Ngay Hoc Trong Tuan",
+      "thoiGianBatDau": "Thoi Gian Bat Dau",
+      "thoiGianKetThuc": "Thoi Gian Ket Thuc",
+      "phongHoc": "Phong Hoc",
+      "ngayThi": "Ngay Thi",
+      "gioThi": "Gio Thi",
+      "phongThi": "Phong Thi",
+      "hocPhan": "Hoc Phan",
+      "giaoVien": "Giao Vien"
+    }
+  }
+}
