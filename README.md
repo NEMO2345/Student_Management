@@ -4,6 +4,8 @@ This application was generated using JHipster 8.0.0-beta.2, you can find documen
 
 ## Detailed assignment of project
 
+## Create Web Project
+
 ## Project Structure
 
 Node is required for generation and recommended for development. `package.json` is always generated for a better development experience with prettier, commit hooks, scripts and so on.
